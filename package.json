@@ -5,7 +5,7 @@
   "main": "bot.js",
   "dependencies": {
     "botkit": "^0.4",
-    "dashbot": "0.7.4",
+    "dashbot": "9.0.0",
     "wordfilter": "^0.2.6"
   },
   "devDependencies": {},
