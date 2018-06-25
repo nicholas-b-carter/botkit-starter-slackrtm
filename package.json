@@ -4,12 +4,16 @@
   "description": "A starter kit for building a custom bot with Botkit Studio",
   "main": "bot.js",
   "dependencies": {
-    "botkit": "^0.4",
-    "dashbot": "0.7.4",
-    "wordfilter": "^0.2.6"
+    "botkit": "^0.6.11",
+    "dashbot": "9.0.0",
+    "wordfilter": "^0.2.6",
+    "snyk": "^1.83.0"
   },
   "devDependencies": {},
-  "scripts": {},
+  "scripts": {
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/howdyai/botkit-studio-starter.git"
@@ -24,5 +28,6 @@
     "slack"
   ],
   "author": "ben@howdy.ai",
-  "license": "ISC"
+  "license": "ISC",
+  "snyk": true
 }
